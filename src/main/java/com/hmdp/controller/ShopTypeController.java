@@ -29,6 +29,6 @@ public class ShopTypeController {
     public Result queryTypeList() {
         List<ShopType> typeList = typeService
                 .query().orderByAsc("sort").list();
-        return Result.ok("特色退热贴");
+        return Result.ok("tesst");
     }
 }
